@@ -1,0 +1,64 @@
+/* seccion 1 nav-bar */
+
+html {
+    max-width: 1920px;
+    width: auto;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    background-color: #ff0;
+}
+
+/* .container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.img-fluid {
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width:1078px){
+    #navbarNavAltMarkup
+    {
+        justify-content: end;
+    }
+}
+
+/* Seccion 1 nav-bar */
+
+
+.seccion2
+{
+    background-image: url(/style/ba2.jpg);
+    position: relative;
+    padding: 10rem;
+    width: 50rem;
+    height: 50rem;
+    color: white;
+    font-size: 3vh;
+}
+
+.contenedor
+{
+    align-items: center;
+}
+
+
+/* Seccion 2 Banner */
+
