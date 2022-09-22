@@ -33,9 +33,8 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (min-width:1078px){
-    #navbarNavAltMarkup
-    {
+@media (min-width:1078px) {
+    #navbarNavAltMarkup {
         justify-content: end;
     }
 }
@@ -43,8 +42,7 @@ header {
 /* Seccion 1 nav-bar */
 
 
-.seccion2
-{
+.seccion2 {
     background-image: url(/style/ba2.jpg);
     position: relative;
     padding: 10rem;
@@ -54,11 +52,45 @@ header {
     font-size: 3vh;
 }
 
-.contenedor
-{
+.contenedor {
     align-items: center;
 }
 
 
 /* Seccion 2 Banner */
 
+/* Seccion 3 Cuerpo de pagina */
+
+.seccion3
+{
+    position: relative;
+    display: flex;
+    justify-content: start;
+}
+
+.card
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+}
+
+.imagen1
+{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen2
+{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen3
+{
+    width: 100%;
+    height: 100%;
+}
