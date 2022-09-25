@@ -36,7 +36,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     font-size: 2.2vh;
     filter: brightness(55%);
 }
@@ -44,7 +44,7 @@ header {
 .contenedor {
     position: absolute;
     top: 25vh;
-    left: 65vw;
+    left: 55vw;
     margin: 0;
     max-width: 20rem;
     color: white;
@@ -74,3 +74,17 @@ header {
 {
     height: auto;
 }
+
+ /* Seccion 4 imagen del medio */
+
+ .playa
+ {
+    border-color: black !important;
+    width: 100%;
+ }
+
+ .texto2
+ {
+    background-color: grey;
+    color: white;
+ }
