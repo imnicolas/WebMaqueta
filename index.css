@@ -1,10 +1,5 @@
 /* seccion 1 nav-bar */
 
-html {
-    max-width: 1920px;
-    width: auto;
-}
-
 header {
     position: fixed;
     right: 0;
@@ -15,13 +10,6 @@ header {
 .navbar {
     background-color: #ff0;
 }
-
-/* .container-fluid {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
-} */
 
 .img-fluid {
     width: 100px;
@@ -41,19 +29,25 @@ header {
 
 /* Seccion 1 nav-bar */
 
-
+/* Seccion 2 Banner */
 .seccion2 {
-    background-image: url(/style/ba2.jpg);
     position: relative;
-    padding: 10rem;
-    width: 50rem;
-    height: 50rem;
-    color: white;
-    font-size: 3vh;
+    background-image: url(/style/ba2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    font-size: 2.2vh;
+    filter: brightness(55%);
 }
 
 .contenedor {
-    align-items: center;
+    position: absolute;
+    top: 25vh;
+    left: 65vw;
+    margin: 0;
+    max-width: 20rem;
+    color: white;
 }
 
 
@@ -63,34 +57,20 @@ header {
 
 .seccion3
 {
-    position: relative;
-    display: flex;
-    justify-content: start;
+    flex-wrap: wrap-reverse;
 }
 
 .card
 {
-    width: 100%;
+    width: 18rem;
+}
+
+.card-img-top
+{
+    height: 325px;
+}
+
+.card-body
+{
     height: auto;
-    position: relative;
-    justify-content: start;
-    align-items: center;
-}
-
-.imagen1
-{
-    width: 100%;
-    height: 100%;
-}
-
-.imagen2
-{
-    width: 100%;
-    height: 100%;
-}
-
-.imagen3
-{
-    width: 100%;
-    height: 100%;
 }
