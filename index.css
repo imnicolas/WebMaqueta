@@ -32,7 +32,7 @@ header {
 /* Seccion 2 Banner */
 .seccion2 {
     position: relative;
-    background-image: url(/style/ba2.jpg);
+    background-image: url(style/ba2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
